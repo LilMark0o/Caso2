@@ -49,6 +49,10 @@ public class Opcion2 {
         }
         System.out.println("Aciertos de página: " + aciertosDePagina);
         System.out.println("Fallos de página: " + fallosDePagina);
+        ordenAccesos = new LinkedList<>();
+        fallosDePagina = 0;
+        aciertosDePagina = 0;
+
     }
 
     private static void iniciarMemoriaReal() {
